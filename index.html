@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stepper - Steps maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Stepper</h1>
+    <form action="">
+        <div class="input">
+            <label for="rangeMin">Range min</label>
+            <input type="number" name="rangeMin" id="rangeMin" required>
+        </div>
+        <div class="input">
+            <label for="rangeMax">Range max</label>
+            <input type="number" name="rangeMax" id="rangeMax" required>
+        </div>
+        <div class="input">
+            <label for="steps">Number of steps</label>
+            <input type="number" name="steps" id="steps" required>
+        </div>
+        <div class="input">
+            <input type="checkbox" name="round" id="round">
+            <label for="round">Round to integers</label>
+        </div>
+        <div class="input">
+            <label for="output">Output</label>
+            <input type="radio" name="output" id="spaceSepList" checked>
+            <label for="spaceSepList">Space-separated list</label>
+            <input type="radio" name="output" id="commaSepList">
+            <label for="commaSepList">Comma-separated list</label>
+            <input type="radio" name="output" id="onePerLine">
+            <label for="onePerLine">One per line</label>
+            <input type="radio" name="output" id="pythonList">
+            <label for="pythonList">Python list</label>
+        </div>
+        <div class="input">
+            <textarea name="preview" id="preview" readonly></textarea>
+        </div>
+        <button id="copy">Copy to clipboard</button>
+    </form>
+</body>
+<script src="scripts.js"></script>
+</html>
