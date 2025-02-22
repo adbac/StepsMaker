@@ -15,7 +15,7 @@ Stepper is a simple web page that allows users to generate a sequence of steps b
 - Copy the generated steps to the clipboard
 
 ## Usage
-Open `website link` in your browser to use the tool.
+Open https://adbac.github.io/StepsMaker in your browser to use the tool.
 
 --------------------------------------------------
 
